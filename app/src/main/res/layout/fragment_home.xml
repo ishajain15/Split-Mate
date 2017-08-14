@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.gwc.spiltmate.HomeFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="56dp"
+        android:text="@string/home_header"
+        android:background="@drawable/header"
+        />
+
+    <Button
+        android:id="@+id/recent_button"
+        android:layout_width="127dp"
+        android:layout_height="50dp"
+        android:text="@string/recent_button"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/button"
+        android:layout_marginTop="60dp"
+        />
+    <Button
+        android:id="@+id/all_button"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="@string/all_button"
+        android:textColor="@color/black"
+        android:background="@drawable/button2"
+        android:layout_alignBaseline="@+id/recent_button"
+        android:layout_alignTop="@+id/recent_button"
+        android:layout_toRightOf="@+id/recent_button"
+        />
+    <Button
+        android:id="@+id/file_button"
+        android:layout_width="127dp"
+        android:layout_height="50dp"
+        android:text="@string/file_button"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/button"
+        android:layout_alignTop="@+id/recent_button"
+        android:layout_toRightOf="@id/all_button"
+/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/all_button"
+        android:orientation="horizontal">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</RelativeLayout>

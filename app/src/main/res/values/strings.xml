@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Spilt Mate</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="share">Share</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calendar">Calendar</string>
+    <string name="create">Create</string>
+    <string name="home_button">Home Button</string>
+    <string name="calendar_button">Calendar Button</string>
+    <string name="create_button">Create Button</string>
+    <string name="share_button">Share Button</string>
+    <string name="recent_button">Recent Bills</string>
+    <string name="all_button">All Bills</string>
+    <string name="file_button">Create New File</string>
+    <string name="home_header">Home</string>
+    <string name="share_header">Share</string>
+    <string name="create_header">Create</string>
+    <string name="calendar_header">Calendar</string>
+</resources>

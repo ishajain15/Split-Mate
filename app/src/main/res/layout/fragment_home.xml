@@ -18,20 +18,30 @@
 
     <Button
         android:id="@+id/recent_button"
-        android:layout_width="215dp"
+        android:layout_width="210dp"
         android:layout_height="50dp"
         android:text="@string/recent_button"
         android:textColor="@android:color/background_light"
         android:background="@drawable/button"
         android:layout_marginTop="60dp"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="10dp"
+        android:text="0 Bills Created"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+        />
+
     <Button
         android:id="@+id/all_button"
         android:layout_width="215dp"
         android:layout_height="50dp"
         android:text="@string/all_button"
         android:textColor="@android:color/background_light"
-        android:background="@drawable/button"
+        android:background="@drawable/button_2"
         android:layout_alignBaseline="@+id/recent_button"
         android:layout_alignTop="@+id/recent_button"
         android:layout_toRightOf="@+id/recent_button"

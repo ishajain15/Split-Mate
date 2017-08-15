@@ -6,7 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.gwc.spiltmate.MainActivity">
+    tools:context="com.example.gwc.spiltmate.MainActivity"
+    android:background="@drawable/background"
+
+    >
 
     <FrameLayout
         android:id="@+id/content"
@@ -21,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@drawable/button2"
+        android:background="@drawable/bottomnav"
         app:menu="@menu/navigation"
         />
 

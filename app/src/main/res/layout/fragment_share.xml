@@ -2,7 +2,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.gwc.spiltmate.ShareFragment">
+    tools:context="com.example.gwc.spiltmate.ShareFragment"
+    android:background="@drawable/background"
+
+    >
 
     <!-- TODO: Update blank fragment layout -->
     <Button
@@ -10,7 +13,47 @@
         android:layout_marginTop="2dp"
         android:layout_height="56dp"
         android:text="@string/share_header"
+        android:textColor="@android:color/background_light"
         android:background="@drawable/header"
         />
+    <Button
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="62dp"
+        android:text="Email"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="true"
+        android:textSize="15dp"
+        android:background="@drawable/background"
+        />
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/header"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="112dp"
+        android:text="Message"
+        android:textAllCaps="true"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background"
+
+        />
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/header"
+
+        />
+
 
 </FrameLayout>

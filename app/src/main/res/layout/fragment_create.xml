@@ -2,7 +2,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.gwc.spiltmate.CreateFragment">
+    tools:context="com.example.gwc.spiltmate.CreateFragment"
+    android:background="@drawable/background"
+
+    >
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -11,6 +14,7 @@
         android:layout_marginTop="2dp"
         android:layout_height="56dp"
         android:text="@string/create_header"
+        android:textColor="@android:color/background_light"
         android:background="@drawable/header"
         />
 
